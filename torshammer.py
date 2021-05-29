@@ -122,6 +122,7 @@ def usage():
     print " -T|--tor Enable anonymising through tor on 127.0.0.1:9050"
     print " -h|--help Shows this help\n" 
     print "Eg. ./torshammer.py -t 192.168.1.100 -r 256\n"
+    print "By Marko Nikoloski\n"
 
 def main(argv):
     
@@ -178,7 +179,7 @@ def main(argv):
 
 if __name__ == "__main__":
     print "\n/*"
-    print " *"+term.RED + " Tor's Hammer "+term.NORMAL
+    print " *"+term.RED + " DDoS by Marko "+term.NORMAL
     print " * Slow POST DoS Testing Tool"
     print " * Version 1.0 Beta"
     print " * Anon-ymized via Tor"
